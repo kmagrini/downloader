@@ -1,0 +1,74 @@
+/* Define a fonte e a cor de fundo do corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+}
+
+/* Define o estilo do cabeçalho */
+h1 {
+  text-align: center;
+  font-size: 48px;
+  margin-top: 50px;
+}
+
+/* Define o estilo do formulário */
+form {
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Define o estilo das etiquetas do formulário */
+label {
+  display: block;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Define o estilo dos campos de entrada do formulário */
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Define o estilo do botão de envio do formulário */
+input[type="submit"] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Define o estilo do botão de envio do formulário ao passar o mouse */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Define o estilo da caixa de seleção do formulário */
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Define o estilo da caixa de seleção do formulário ao passar o mouse */
+select:hover {
+  border-color: #888;
+}
